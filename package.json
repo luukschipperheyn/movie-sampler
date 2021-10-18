@@ -7,6 +7,10 @@
     "movie-sampler": "./bin/index.js"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luukschipperheyn/movie-sampler.git"
+  },
   "dependencies": {
     "command-line-args": "^5.2.0",
     "command-line-usage": "^6.1.1",
