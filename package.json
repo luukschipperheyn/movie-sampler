@@ -1,0 +1,19 @@
+{
+  "name": "movie-sampler",
+  "version": "1.0.0",
+  "description": "samples audio clips from a movie based on [Subtitles for the Deaf or Hard-of-Hearing]",
+  "main": "lib/movie-sampler.js",
+  "bin": {
+    "movie-sampler": "./bin/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.2.0",
+    "command-line-usage": "^6.1.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "parse-srt": "^1.0.0-alpha"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1"
+  }
+}
