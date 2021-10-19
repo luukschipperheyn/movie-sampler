@@ -1,6 +1,6 @@
 {
   "name": "movie-sampler",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "samples audio clips from a movie based on [Subtitles for the Deaf or Hard-of-Hearing]",
   "main": "lib/movie-sampler.js",
   "bin": {
