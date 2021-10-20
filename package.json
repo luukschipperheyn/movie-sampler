@@ -1,6 +1,6 @@
 {
   "name": "movie-sampler",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "samples sound effects from movies based on subtitle files with noise captions in square brackets.",
   "main": "lib/movie-sampler.js",
   "bin": {
@@ -15,7 +15,8 @@
     "command-line-args": "^5.2.0",
     "command-line-usage": "^6.1.1",
     "fluent-ffmpeg": "^2.1.2",
-    "parse-srt": "^1.0.0-alpha"
+    "parse-srt": "^1.0.0-alpha",
+    "sanitize-filename": "^1.6.3"
   },
   "devDependencies": {
     "eslint": "^8.0.1"
