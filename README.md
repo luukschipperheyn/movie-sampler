@@ -39,8 +39,9 @@ Options
   --video file <required>   path to video file
   --subs file <required>    path to subtitle (.srt) file
   --out path <required>     path to output samples
-  --margin seconds          make longer samples. Adds [margin] seconds to start and to end of each
-                            sample.
+  --margin seconds          make longer samples. Adds [margin] seconds to start 
+                            and to end of each sample.
+  --offset seconds          offsets subtitles by [offset] seconds
   --ffmpegPath path         path to ffmpeg executable
   --help string             Print this usage guide.
 
@@ -55,6 +56,8 @@ const options = {
   video: "/path/to/video.mp4",
   subs: "/path/to/subtitles.srt",
   out: "/path/to/output/directory/",
+  margin: 0,
+  offset: 0
 };
 
 await movieSampler(options);

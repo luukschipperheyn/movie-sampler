@@ -42,6 +42,12 @@ const sections = [
           "make longer samples. Adds [margin] seconds to start and to end of each sample.",
       },
       {
+        name: "offset",
+        typeLabel: "{underline seconds}",
+        description:
+          "offsets subtitles by [offset] seconds",
+      },
+      {
         name: "ffmpegPath",
         typeLabel: "{underline path}",
         description: "path to ffmpeg executable",
