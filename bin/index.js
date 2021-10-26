@@ -9,7 +9,7 @@ const sections = [
   {
     header: "movie-sampler",
     content:
-      "samples sound effects from movies, based on subtitle files for the deaf or hard-of-hearing, containing noise captions using square brackets",
+      "samples sound effects from movies, based on subtitle files for the deaf or hard-of-hearing that contain noise captions",
   },
   {
     header: "Synopsis",
@@ -44,13 +44,22 @@ const sections = [
       {
         name: "offset",
         typeLabel: "{underline seconds}",
-        description:
-          "offsets subtitles by [offset] seconds",
+        description: "offsets subtitles by [offset] seconds",
       },
       {
         name: "ffmpegPath",
         typeLabel: "{underline path}",
         description: "path to ffmpeg executable",
+      },
+      {
+        name: "regex",
+        typeLabel: "{underline string}",
+        description: "regular expression for selecting lines to sample",
+      },
+      {
+        name: "query",
+        typeLabel: "{underline string}",
+        description: "selects lines to sample if they contain query string",
       },
       {
         name: "help",
@@ -66,6 +75,8 @@ const optionDefinitions = [
   { name: "out", type: String },
   { name: "margin", type: Number },
   { name: "ffmpegPath", type: String },
+  { name: "regex", type: String },
+  { name: "query", type: String },
   { name: "help", alias: "h", type: Boolean },
 ];
 const options = commandLineArgs(optionDefinitions);
