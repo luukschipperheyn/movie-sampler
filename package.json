@@ -1,6 +1,6 @@
 {
   "name": "movie-sampler",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "samples sound effects from movies based on subtitle files with noise captions in square brackets.",
   "main": "lib/movie-sampler.js",
   "bin": {
